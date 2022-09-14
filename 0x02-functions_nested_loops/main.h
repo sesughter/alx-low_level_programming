@@ -3,6 +3,7 @@ void printstring()
 {
 	printf("_putchar\n");
 }
+
 void print_alphabet()
 {
 	char ch;
@@ -10,5 +11,7 @@ void print_alphabet()
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
+		putchar('\n');
 	}
 }
+
