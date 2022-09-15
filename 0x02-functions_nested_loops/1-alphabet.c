@@ -2,11 +2,16 @@
 void print_alphabet()
 {
 	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	
+	ch = 'a';
+	while (ch <= 'b')
 	{
-		putchar(ch);
-		putchar('\n');
+		while(ch <= 'z')
+		{
+			putchar(ch);
+		}
+	putchar('\n');
 	}
 }
+
 
