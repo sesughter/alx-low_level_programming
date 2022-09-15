@@ -1,12 +1,20 @@
-#include <stdio.h>
-void print_alphabet()
+#include "main.h"
+#include <stdbool.h>
+/**
+  * print_alphabet - function that prints lowercase alphabet
+  */
+void print_alphabet(void)
 {
-	char ch;
-	
-	ch = 'a';
-	while (ch <= 'z')
-	putchar(ch);
+	int i = 97;
+	bool a = true;
+
+	while (a)
+	{
+		_putchar(i);
+		if (i == 122)
+		{																a = false;
+		}
+		i++;
 	}
+	_putchar('\n');
 }
-
-
